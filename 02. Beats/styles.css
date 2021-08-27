@@ -1,0 +1,158 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header stylization */
+.page-header {
+  margin-bottom: 120px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-list .nav-list-item {
+  text-transform: uppercase;
+  color: #9d9d9d;
+  font-weight: 700;
+  list-style: none;
+}
+
+/* stylization main sections */
+.solo-wireless {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.solo-wireless-text {
+  flex-basis: 35%;
+}
+
+.solo-wireless-image-container {
+  flex-basis: 55%;
+  position: relative;
+  left: 125px;
+}
+
+.solo-wireless-image-container img {
+  width: 100%;
+}
+
+.solo-wireless-text-title {
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.solo-wireless-text-content {
+  color: #555555;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.solo-wireless-cta {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 100;
+  padding: 16px 54px;
+  background-color: red;
+  border: none;
+  border-radius: 30px;
+}
+
+.powerbeats {
+  background-color: #FBFCFF;
+  width: 90%;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.powerbeats-image-container,
+.powerbeats-text {
+  flex-basis: 40%;
+}
+
+.powerbeats-image-container img {
+  width: 100%;
+}
+
+.powerbeats-text-title {
+  text-transform: uppercase;
+  font-size: 4.3rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.powerbeats-text-subtitle {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 70px;
+  position: relative;
+  left: 130px;
+}
+
+.powerbeats-text-subtitle span {
+  font-weight: 800;
+}
+
+.powerbeats-text-content {
+  width: 85%;
+  font-weight: 100;
+  font-size: 1.1rem;
+  color: #555555;
+  line-height: 1.5;
+  margin-bottom: 80px;
+}
+
+.price-and-cta {
+  display: flex;
+  align-items: center;
+}
+.price-and-cta .price {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-right: 40px;
+}
+
+.price-cta {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 100;
+  padding: 16px 52px;
+  background-color: red;
+  border: none;
+  border-radius: 30px;
+}
