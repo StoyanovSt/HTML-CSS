@@ -86,7 +86,7 @@ h6 {
 }
 
 .powerbeats {
-  background-color: #FBFCFF;
+  background-color: #fbfcff;
   width: 90%;
   margin-top: 150px;
   margin-left: auto;
@@ -155,4 +155,112 @@ h6 {
   background-color: red;
   border: none;
   border-radius: 30px;
+}
+
+.discount {
+  background-color: #575757;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.discount-info {
+  display: flex;
+  align-items: center;
+}
+
+.discount-info-imgage-container {
+  margin-right: 30px;
+}
+
+.discount-info-text {
+  color: white;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.discount-info-text span {
+  font-weight: 700;
+}
+
+.read-more-info {
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  width: fit-content;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+
+.give-life {
+  display: flex;
+}
+
+.image-container,
+.give-life-content {
+  flex-basis: 50%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.give-life-content {
+  display: flex;
+  background-color: #dadada;
+}
+
+.give-life-content-text {
+  flex-basis: 60%;
+}
+
+.give-life-content-title {
+  font-weight: 700;
+  font-size: 9rem;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.give-life-content-subtitle {
+  font-size: 3.5rem;
+  font-weight: 100;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.give-life-content-subtitle span {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.inner-image-container {
+  flex-basis: 40%;
+  padding-top: 60px;
+}
+
+.inner-image-container img {
+  width: 90%;
+}
+
+/* Footer */
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.page-footer-text {
+  font-size: 1.5rem;
+  font-weight: 100;
+  width: fit-content;
+  margin: 0 auto;
 }
